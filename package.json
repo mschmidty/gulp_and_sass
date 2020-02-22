@@ -1,0 +1,15 @@
+{
+  "name": "gulp_for_sass",
+  "version": "1.0.0",
+  "description": "Gist for getting started with gulp for sass",
+  "main": "readme.ms",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "sass"
+  ],
+  "author": "Mike Schmidt",
+  "license": "ISC"
+}
