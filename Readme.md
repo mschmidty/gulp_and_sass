@@ -13,7 +13,7 @@ And then to start watching files and processing them to css:
 gulp
 ```
 
-And you should see with no errors:
+And you should see this with no errors:
 ```bash                       
 [20:41:46] Using gulpfile ~/Dropbox/web_dev/test/gulp_and_sass/gulpfile.js
 [20:41:46] Starting 'default'...
@@ -24,7 +24,7 @@ Every time you save a file it should detect the changes and overwrite the css fi
 [20:53:15] Starting 'css'...
 [20:53:15] Finished 'css' after 184 ms
 ```
-There will be a warning if you have done something wrong. 
+There will be a warning if you have done something wrong.
 
 # Whats happening
 All of the .scss files are in the `src/scss/` folder.  Typically you have one file, which I've called `main.scss` here that you used as your parent scss file.  It will pull all of the other files into it using `@import "filename";`.  These can be in folders.  For the rest, check out the [Sass guide](https://sass-lang.com/guide) (you can toggle if you want scss or sass).  They do a better job of describing it then I could.
@@ -40,7 +40,7 @@ They are different although you hear them used like they are the same thing some
     .nested-class-name
       margin-top: 30px
 ```
-#SCSS
+### SCSS
 ```scss
 .class-name{
   border: 2px solid $black;
@@ -49,6 +49,7 @@ They are different although you hear them used like they are the same thing some
       margin-top: 30px;
     }
 }
+```
 
 
 
