@@ -3,9 +3,10 @@
 body{
   font-family:"Work Sans";
   padding-top: 5rem;
+  color: $black;
 }
 .header{ // you can also nest sass.
-  h1{ //this will turn into .header h1 {} when concatenated. 
+  h1{ //this will turn into .header h1 {} when concatenated.
     color:$purple;
     max-width: 800px;
     display:block;
