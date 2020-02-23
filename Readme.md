@@ -1,6 +1,9 @@
 This is a repository to help a friend get their head around [sass](https://sass-lang.com/) and [gulp](https://gulpjs.com/). It uses gulp to process sass and make a single line of css. It is well commented and simple so that it is easy to understand for someone just learning about sass or gulp.
 
 # How to Install!
+
+First you need [node.js](https://nodejs.org/en/) and npm (npm now comes with node).
+
 ```bash
 git clone https://github.com/mschmidty/gulp_and_sass.git
 cd gulp_and_sass
