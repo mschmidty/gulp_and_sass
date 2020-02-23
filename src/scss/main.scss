@@ -1,0 +1,24 @@
+//Everything in here will be concatenated into the `css/main.css` file and be on one line.
+//You can change your options though so it isn't on one line if you want.
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+//#Sass has variables.
+//I use variables for color all of the time.
+//$variable-name: value; is the syntax for variables.
+$background-color: #efefef;
+$purple: #A743D7;
+
+//#you can write vanilla css like this.
+body{
+  background: $background-color; //You call a variable in SCSS very similarly to most other languges.
+}
+
+//You can also import other .scss into the document.  Standard includes.
+@import "text";
+@import "component";
